@@ -4,7 +4,7 @@ var navList = document.querySelector('#main-nav-list')
 
 if (navToggle && navList) { //executes if navToggle and navList return a value i.e. exist in the document. Always check to see if an element exists before writing those elements
   navToggle.addEventListener('click', function(event) {
-    console.log(event);
+    //console.log(event);
     //console.log(arguments); //the argument variable is a given variable whose value is all of the arguements passed into the function
     if (navToggle.classList.contains('close')){ //checks to see if the element has the class of close on it
       navToggle.classList.remove('close');
